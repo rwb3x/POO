@@ -6,5 +6,7 @@
 ![alt_text](https://github.com/rwb3x/POO/blob/master/Setup/Imagenes/Captura.PNG "Captura 2")
 * Ejecutas el programa
 ![alt_text](https://github.com/rwb3x/POO/blob/master/Setup/Imagenes/Captura3.PNG "Captura 3")
+![alt_text](https://github.com/rwb3x/POO/blob/master/Setup/Imagenes/Captura4.PNG "Captura 4")
+
 2. Instalación y configuración de Visual Studio Code para C#.
 3. Instalación de git. conectado a tu cuenta de GitHub y VSC.
