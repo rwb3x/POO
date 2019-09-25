@@ -13,7 +13,7 @@ namespace espia
     }
     class Anonymous
     {
-        public static void anonimiza(Persona p)
+        public static void anonimiza(ref Persona p)
         {
             p.nombre = "xxxxxxxxxxx";
             p.apellido= "xxxxxxxxxxx";
@@ -32,7 +32,7 @@ namespace espia
         {
             Persona p = new Persona();
             Console.WriteLine(p.nombre);
-            Anonymous.anonimiza(p);
+            Anonymous.anonimiza(ref p);
             Console.WriteLine(p.nombre);
             Duplicador dup = new Duplicador();
             dup.duplica(1);
