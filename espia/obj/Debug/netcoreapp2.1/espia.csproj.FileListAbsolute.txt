@@ -1,0 +1,11 @@
+C:\Users\ITT\Desktop\Wea\POO\espia\bin\Debug\netcoreapp2.1\espia.deps.json
+C:\Users\ITT\Desktop\Wea\POO\espia\bin\Debug\netcoreapp2.1\espia.runtimeconfig.json
+C:\Users\ITT\Desktop\Wea\POO\espia\bin\Debug\netcoreapp2.1\espia.runtimeconfig.dev.json
+C:\Users\ITT\Desktop\Wea\POO\espia\bin\Debug\netcoreapp2.1\espia.dll
+C:\Users\ITT\Desktop\Wea\POO\espia\bin\Debug\netcoreapp2.1\espia.pdb
+C:\Users\ITT\Desktop\Wea\POO\espia\obj\Debug\netcoreapp2.1\espia.csprojAssemblyReference.cache
+C:\Users\ITT\Desktop\Wea\POO\espia\obj\Debug\netcoreapp2.1\espia.csproj.CoreCompileInputs.cache
+C:\Users\ITT\Desktop\Wea\POO\espia\obj\Debug\netcoreapp2.1\espia.AssemblyInfoInputs.cache
+C:\Users\ITT\Desktop\Wea\POO\espia\obj\Debug\netcoreapp2.1\espia.AssemblyInfo.cs
+C:\Users\ITT\Desktop\Wea\POO\espia\obj\Debug\netcoreapp2.1\espia.dll
+C:\Users\ITT\Desktop\Wea\POO\espia\obj\Debug\netcoreapp2.1\espia.pdb
