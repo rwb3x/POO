@@ -18,6 +18,11 @@ namespace espia
             p.nombre = "xxxxxxxxxxx";
             p.apellido= "xxxxxxxxxxx";
         }
+        public static void cambia(ref Persona p)
+        {
+            p = new Persona();
+            p.nombre= "new";
+        }
     }
     class Duplicador
     {
@@ -33,6 +38,7 @@ namespace espia
             Persona p = new Persona();
             Console.WriteLine(p.nombre);
             Anonymous.anonimiza(ref p);
+            Anonymous.cambia(ref p);
             Console.WriteLine(p.nombre);
             Duplicador dup = new Duplicador();
             dup.duplica(1);
