@@ -1,0 +1,4 @@
+C:\Users\ITT\Documents\GitHub\POO\PeliculasBasic\obj\Debug\netcoreapp2.1\PeliculasBasic.csprojAssemblyReference.cache
+C:\Users\ITT\Documents\GitHub\POO\PeliculasBasic\obj\Debug\netcoreapp2.1\PeliculasBasic.csproj.CoreCompileInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\PeliculasBasic\obj\Debug\netcoreapp2.1\PeliculasBasic.AssemblyInfoInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\PeliculasBasic\obj\Debug\netcoreapp2.1\PeliculasBasic.AssemblyInfo.cs
