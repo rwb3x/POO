@@ -4,8 +4,12 @@ namespace PeliculasBasic
 {
     class Pelicula 
     {
-        public String Titulo, pais, director;
-        public Int16 year; 
+        public String Titulo;
+        public Pelicula
+        {
+            
+        }
+        public Int16 Año; 
     }
     class Program
     {
