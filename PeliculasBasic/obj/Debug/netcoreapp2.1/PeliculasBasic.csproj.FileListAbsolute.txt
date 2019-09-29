@@ -2,3 +2,14 @@ C:\Users\ITT\Documents\GitHub\POO\PeliculasBasic\obj\Debug\netcoreapp2.1\Pelicul
 C:\Users\ITT\Documents\GitHub\POO\PeliculasBasic\obj\Debug\netcoreapp2.1\PeliculasBasic.csproj.CoreCompileInputs.cache
 C:\Users\ITT\Documents\GitHub\POO\PeliculasBasic\obj\Debug\netcoreapp2.1\PeliculasBasic.AssemblyInfoInputs.cache
 C:\Users\ITT\Documents\GitHub\POO\PeliculasBasic\obj\Debug\netcoreapp2.1\PeliculasBasic.AssemblyInfo.cs
+C:\Users\Rubens\Documents\GitHub\POO\peliculasbasic\obj\Debug\netcoreapp2.1\PeliculasBasic.csprojAssemblyReference.cache
+C:\Users\Rubens\Documents\GitHub\POO\peliculasbasic\obj\Debug\netcoreapp2.1\PeliculasBasic.csproj.CoreCompileInputs.cache
+C:\Users\Rubens\Documents\GitHub\POO\peliculasbasic\obj\Debug\netcoreapp2.1\PeliculasBasic.AssemblyInfoInputs.cache
+C:\Users\Rubens\Documents\GitHub\POO\peliculasbasic\obj\Debug\netcoreapp2.1\PeliculasBasic.AssemblyInfo.cs
+C:\Users\Rubens\Documents\GitHub\POO\peliculasbasic\bin\Debug\netcoreapp2.1\PeliculasBasic.deps.json
+C:\Users\Rubens\Documents\GitHub\POO\peliculasbasic\bin\Debug\netcoreapp2.1\PeliculasBasic.runtimeconfig.json
+C:\Users\Rubens\Documents\GitHub\POO\peliculasbasic\bin\Debug\netcoreapp2.1\PeliculasBasic.runtimeconfig.dev.json
+C:\Users\Rubens\Documents\GitHub\POO\peliculasbasic\bin\Debug\netcoreapp2.1\PeliculasBasic.dll
+C:\Users\Rubens\Documents\GitHub\POO\peliculasbasic\bin\Debug\netcoreapp2.1\PeliculasBasic.pdb
+C:\Users\Rubens\Documents\GitHub\POO\peliculasbasic\obj\Debug\netcoreapp2.1\PeliculasBasic.dll
+C:\Users\Rubens\Documents\GitHub\POO\peliculasbasic\obj\Debug\netcoreapp2.1\PeliculasBasic.pdb
