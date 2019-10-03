@@ -18,7 +18,11 @@ namespace GOL
             this.Renglon= Renglon;
             this.Columna= Columna;
         }
-    }
+        public void print()
+        {
+        if (this.estado_actual = )
+        
+        }
     class Tablero
     {
         private List<List<Celula >>   grid;
@@ -36,6 +40,7 @@ namespace GOL
             grid[2].Add(new Celula(Estado.muerta, this,0,1));
             grid[2].Add(new Celula(Estado.viva, this,0,2));
         }
+    }      
     }
     class Program
     {
