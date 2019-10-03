@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace GOL
 {
@@ -20,7 +21,12 @@ namespace GOL
     }
     class Tablero
     {
-        private List<List<Celula>> grid;
+        private List<List<Celula >>   grid;
+        public Tablero(){
+            grid = new List<List<Celula>>(); 
+            grid[0].Add(new Celula(Estado))
+
+        }
     }
     class Program
     {
