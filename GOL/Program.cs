@@ -24,8 +24,17 @@ namespace GOL
         private List<List<Celula >>   grid;
         public Tablero(){
             grid = new List<List<Celula>>(); 
-            grid[0].Add(new Celula(Estado))
+            grid[0].Add(new Celula(Estado.viva, this,0,0));
+            grid[0].Add(new Celula(Estado.muerta, this,0,1));
+            grid[0].Add(new Celula(Estado.muerta, this,0,2));
 
+            grid[1].Add(new Celula(Estado.muerta, this,0,0));
+            grid[1].Add(new Celula(Estado.viva, this,0,1));
+            grid[1].Add(new Celula(Estado.muerta, this,0,2));
+
+            grid[2].Add(new Celula(Estado.muerta, this,0,0));
+            grid[2].Add(new Celula(Estado.muerta, this,0,1));
+            grid[2].Add(new Celula(Estado.viva, this,0,2));
         }
     }
     class Program
