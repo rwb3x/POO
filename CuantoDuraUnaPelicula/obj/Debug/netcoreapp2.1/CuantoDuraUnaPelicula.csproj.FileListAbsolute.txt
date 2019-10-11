@@ -1,0 +1,11 @@
+C:\Users\ITT\Desktop\R\POO\CuantoDuraUnaPelicula\bin\Debug\netcoreapp2.1\CuantoDuraUnaPelicula.deps.json
+C:\Users\ITT\Desktop\R\POO\CuantoDuraUnaPelicula\bin\Debug\netcoreapp2.1\CuantoDuraUnaPelicula.runtimeconfig.json
+C:\Users\ITT\Desktop\R\POO\CuantoDuraUnaPelicula\bin\Debug\netcoreapp2.1\CuantoDuraUnaPelicula.runtimeconfig.dev.json
+C:\Users\ITT\Desktop\R\POO\CuantoDuraUnaPelicula\bin\Debug\netcoreapp2.1\CuantoDuraUnaPelicula.dll
+C:\Users\ITT\Desktop\R\POO\CuantoDuraUnaPelicula\bin\Debug\netcoreapp2.1\CuantoDuraUnaPelicula.pdb
+C:\Users\ITT\Desktop\R\POO\CuantoDuraUnaPelicula\obj\Debug\netcoreapp2.1\CuantoDuraUnaPelicula.csprojAssemblyReference.cache
+C:\Users\ITT\Desktop\R\POO\CuantoDuraUnaPelicula\obj\Debug\netcoreapp2.1\CuantoDuraUnaPelicula.csproj.CoreCompileInputs.cache
+C:\Users\ITT\Desktop\R\POO\CuantoDuraUnaPelicula\obj\Debug\netcoreapp2.1\CuantoDuraUnaPelicula.AssemblyInfoInputs.cache
+C:\Users\ITT\Desktop\R\POO\CuantoDuraUnaPelicula\obj\Debug\netcoreapp2.1\CuantoDuraUnaPelicula.AssemblyInfo.cs
+C:\Users\ITT\Desktop\R\POO\CuantoDuraUnaPelicula\obj\Debug\netcoreapp2.1\CuantoDuraUnaPelicula.dll
+C:\Users\ITT\Desktop\R\POO\CuantoDuraUnaPelicula\obj\Debug\netcoreapp2.1\CuantoDuraUnaPelicula.pdb
