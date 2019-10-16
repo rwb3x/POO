@@ -10,9 +10,9 @@ namespace Music
         {
             nombre = n;
         }
-        public void Saluda()
+        public string Saluda()
         {
-            Console.WriteLine("Hola,Soy {0}",nombre);
+            return String.Format("Hola,Soy {0}",nombre);
         }
         public virtual void Afina()
         {
@@ -61,15 +61,17 @@ namespace Music
         {
             Musico Tom= new Musico("Tom");
             Bajista Flea= new Bajista("Flea","Fender");
-            Tom.Saluda();
-            Flea.Saluda();
+            Console.WriteLine(Tom.Saluda());
             Tom.Afina();
+            Console.WriteLine("\n");
+            Flea.Saluda();
             Flea.Afina();
+            Console.WriteLine("\n");
             Guitarrista Slash = new Guitarrista("Slash","Gibson");
             Slash.Saluda();
             Slash.Afina();
             Console.WriteLine("\n");
-            Guitarrista Cota = new Baterista("Cota","Gibson");
+            Baterista Cota = new Baterista("Cota","Gibson");
             Slash.Saluda();
             Slash.Afina();
             Console.WriteLine("\n");
@@ -83,6 +85,7 @@ namespace Music
             {
                 m.Saluda();
                 m.Afina();
+                Console.WriteLine("\n");
             }
         }
     }
