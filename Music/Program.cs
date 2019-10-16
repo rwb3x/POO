@@ -14,7 +14,7 @@ namespace Music
         {
             Console.WriteLine("Hola,Soy {0}",nombre);
         }
-        public void Afina()
+        public virtual void Afina()
         {
             Console.WriteLine("{0}, afina su instrumento",nombre);
         }
@@ -26,7 +26,7 @@ namespace Music
         {
             this.bajo=bajo;
         }
-        public new void Afina()
+        public override void Afina()
         {
             Console.WriteLine("{0}, Afina su {1}",nombre,bajo);
         }
@@ -41,6 +41,17 @@ namespace Music
             Flea.Saluda();
             Tom.Afina();
             Flea.Afina();
+
+
+            //Lista
+            List<Musico> grupo = new List<Musico>();
+            grupo.Add(Tom);
+            grupo.Add(Flea);
+            foreach(Musico m in grupo)
+            {
+                m.Saluda();
+                m.Afina();
+            }
         }
     }
 }
