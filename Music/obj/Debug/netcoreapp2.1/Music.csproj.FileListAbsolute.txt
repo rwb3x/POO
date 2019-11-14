@@ -1,0 +1,11 @@
+C:\Users\ITT\Documents\GitHub\POO\Music\obj\Debug\netcoreapp2.1\Music.csprojAssemblyReference.cache
+C:\Users\ITT\Documents\GitHub\POO\Music\obj\Debug\netcoreapp2.1\Music.csproj.CoreCompileInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\Music\obj\Debug\netcoreapp2.1\Music.AssemblyInfoInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\Music\obj\Debug\netcoreapp2.1\Music.AssemblyInfo.cs
+C:\Users\ITT\Documents\GitHub\POO\Music\bin\Debug\netcoreapp2.1\Music.deps.json
+C:\Users\ITT\Documents\GitHub\POO\Music\bin\Debug\netcoreapp2.1\Music.runtimeconfig.json
+C:\Users\ITT\Documents\GitHub\POO\Music\bin\Debug\netcoreapp2.1\Music.runtimeconfig.dev.json
+C:\Users\ITT\Documents\GitHub\POO\Music\bin\Debug\netcoreapp2.1\Music.dll
+C:\Users\ITT\Documents\GitHub\POO\Music\bin\Debug\netcoreapp2.1\Music.pdb
+C:\Users\ITT\Documents\GitHub\POO\Music\obj\Debug\netcoreapp2.1\Music.dll
+C:\Users\ITT\Documents\GitHub\POO\Music\obj\Debug\netcoreapp2.1\Music.pdb
