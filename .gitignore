@@ -1,2 +1,5 @@
 
 Setup/README.me
+*.cache
+*.cache
+GOL/obj/Debug/netcoreapp2.1/GOL.assets.cache
