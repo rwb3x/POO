@@ -19,10 +19,10 @@ namespace creadir
         static void Main(string[] args)
         {
             List<Producto> productos = new List<Producto>();
-            productos.Add(new Producto("AQW","Lapiz Azul w2",12.23d));
-            productos.Add(new Producto("AQW","Lapiz  Verdew2",12.23d));
-            productos.Add(new Producto("AQW","Pluma Azul w2",22.23d));
-            productos.Add(new Producto("AQW","Borrador Azul w2",22.23d));
+            productos.Add(new Producto("AQW ","Lapiz Azul w2",12.23d));
+            productos.Add(new Producto("AQW ","Lapiz  Verde w2",12.23d));
+            productos.Add(new Producto("AQW ","Pluma Azul w2",22.23d));
+            productos.Add(new Producto("AQW ","Borrador Azul w2",22.23d));
 
             FileStream fs = new FileStream(@"productos.txt",FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter txtOut = new StreamWriter(fs);
