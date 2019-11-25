@@ -3,3 +3,9 @@ Setup/README.me
 *.cache
 *.cache
 GOL/obj/Debug/netcoreapp2.1/GOL.assets.cache
+espia/obj/Debug/netcoreapp2.1/espia.csprojAssemblyReference.cache
+*.cache
+Creadir/obj/Debug/netcoreapp2.1/Creadir.assets.cache
+CuantoDuraUnaPelicula/obj/Debug/netcoreapp2.1/CuantoDuraUnaPelicula.csprojAssemblyReference.cache
+espia/obj/Debug/netcoreapp2.1/espia.csprojAssemblyReference.cache
+Music/obj/Debug/netcoreapp2.1/Music.assets.cache
