@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ISC-ITT\\Programacion\\POO\\creadir\\Creadir.csproj": {}
+    "E:\\ISC-ITT\\Programacion\\POO\\espia\\espia.csproj": {}
   },
   "projects": {
-    "E:\\ISC-ITT\\Programacion\\POO\\creadir\\Creadir.csproj": {
+    "E:\\ISC-ITT\\Programacion\\POO\\espia\\espia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ISC-ITT\\Programacion\\POO\\creadir\\Creadir.csproj",
-        "projectName": "Creadir",
-        "projectPath": "E:\\ISC-ITT\\Programacion\\POO\\creadir\\Creadir.csproj",
+        "projectUniqueName": "E:\\ISC-ITT\\Programacion\\POO\\espia\\espia.csproj",
+        "projectName": "espia",
+        "projectPath": "E:\\ISC-ITT\\Programacion\\POO\\espia\\espia.csproj",
         "packagesPath": "C:\\Users\\Chuy\\.nuget\\packages\\",
-        "outputPath": "E:\\ISC-ITT\\Programacion\\POO\\creadir\\obj\\",
+        "outputPath": "E:\\ISC-ITT\\Programacion\\POO\\espia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"

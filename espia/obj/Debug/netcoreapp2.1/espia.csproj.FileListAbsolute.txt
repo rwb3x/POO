@@ -9,3 +9,14 @@ C:\Users\ITT\Desktop\Wea\POO\espia\obj\Debug\netcoreapp2.1\espia.AssemblyInfoInp
 C:\Users\ITT\Desktop\Wea\POO\espia\obj\Debug\netcoreapp2.1\espia.AssemblyInfo.cs
 C:\Users\ITT\Desktop\Wea\POO\espia\obj\Debug\netcoreapp2.1\espia.dll
 C:\Users\ITT\Desktop\Wea\POO\espia\obj\Debug\netcoreapp2.1\espia.pdb
+E:\ISC-ITT\Programacion\POO\espia\bin\Debug\netcoreapp2.1\espia.deps.json
+E:\ISC-ITT\Programacion\POO\espia\bin\Debug\netcoreapp2.1\espia.runtimeconfig.json
+E:\ISC-ITT\Programacion\POO\espia\bin\Debug\netcoreapp2.1\espia.runtimeconfig.dev.json
+E:\ISC-ITT\Programacion\POO\espia\bin\Debug\netcoreapp2.1\espia.dll
+E:\ISC-ITT\Programacion\POO\espia\bin\Debug\netcoreapp2.1\espia.pdb
+E:\ISC-ITT\Programacion\POO\espia\obj\Debug\netcoreapp2.1\espia.csprojAssemblyReference.cache
+E:\ISC-ITT\Programacion\POO\espia\obj\Debug\netcoreapp2.1\espia.csproj.CoreCompileInputs.cache
+E:\ISC-ITT\Programacion\POO\espia\obj\Debug\netcoreapp2.1\espia.AssemblyInfoInputs.cache
+E:\ISC-ITT\Programacion\POO\espia\obj\Debug\netcoreapp2.1\espia.AssemblyInfo.cs
+E:\ISC-ITT\Programacion\POO\espia\obj\Debug\netcoreapp2.1\espia.dll
+E:\ISC-ITT\Programacion\POO\espia\obj\Debug\netcoreapp2.1\espia.pdb

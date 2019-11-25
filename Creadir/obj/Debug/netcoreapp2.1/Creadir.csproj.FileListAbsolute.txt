@@ -1,0 +1,11 @@
+E:\ISC-ITT\Programacion\POO\creadir\bin\Debug\netcoreapp2.1\Creadir.deps.json
+E:\ISC-ITT\Programacion\POO\creadir\bin\Debug\netcoreapp2.1\Creadir.runtimeconfig.json
+E:\ISC-ITT\Programacion\POO\creadir\bin\Debug\netcoreapp2.1\Creadir.runtimeconfig.dev.json
+E:\ISC-ITT\Programacion\POO\creadir\bin\Debug\netcoreapp2.1\Creadir.dll
+E:\ISC-ITT\Programacion\POO\creadir\bin\Debug\netcoreapp2.1\Creadir.pdb
+E:\ISC-ITT\Programacion\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.csprojAssemblyReference.cache
+E:\ISC-ITT\Programacion\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.csproj.CoreCompileInputs.cache
+E:\ISC-ITT\Programacion\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.AssemblyInfoInputs.cache
+E:\ISC-ITT\Programacion\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.AssemblyInfo.cs
+E:\ISC-ITT\Programacion\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.dll
+E:\ISC-ITT\Programacion\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.pdb

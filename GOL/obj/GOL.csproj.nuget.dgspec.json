@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ISC-ITT\\Programacion\\POO\\creadir\\Creadir.csproj": {}
+    "e:\\ISC-ITT\\Programacion\\POO\\GOL\\GOL.csproj": {}
   },
   "projects": {
-    "E:\\ISC-ITT\\Programacion\\POO\\creadir\\Creadir.csproj": {
+    "e:\\ISC-ITT\\Programacion\\POO\\GOL\\GOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ISC-ITT\\Programacion\\POO\\creadir\\Creadir.csproj",
-        "projectName": "Creadir",
-        "projectPath": "E:\\ISC-ITT\\Programacion\\POO\\creadir\\Creadir.csproj",
+        "projectUniqueName": "e:\\ISC-ITT\\Programacion\\POO\\GOL\\GOL.csproj",
+        "projectName": "GOL",
+        "projectPath": "e:\\ISC-ITT\\Programacion\\POO\\GOL\\GOL.csproj",
         "packagesPath": "C:\\Users\\Chuy\\.nuget\\packages\\",
-        "outputPath": "E:\\ISC-ITT\\Programacion\\POO\\creadir\\obj\\",
+        "outputPath": "e:\\ISC-ITT\\Programacion\\POO\\GOL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"

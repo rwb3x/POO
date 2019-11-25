@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
+
 namespace creadir
 {
     class Producto 
@@ -28,7 +29,7 @@ namespace creadir
 
             foreach(Producto p in productos)
             {
-                txtOut.WriteLine("{0}|{1}|{2}",p.codigo,p.descripcion,p.precio);
+                txtOut.WriteLine("{0}--{1}--{2}",p.codigo,p.descripcion,p.precio);
                 /*txtOut.Write(p.descripcion + " ");
                 txtOut.WriteLine(p.precio);*/
 
@@ -44,13 +45,18 @@ namespace creadir
                 string line = "";
                 while( (line = sr.ReadLine()) != null)//No llegaremos al final del archivo
                 {
-                    string[] columnas = line.Split("|");
-                    Console.WriteLine(columnas[0]);
+                    string[] columnas = line.Split("--");
+                    //Console.WriteLine(columnas[0]);
+                    productos_leidos.Add(new Producto(columnas[0],columnas[1],Double.Parse(columnas[2])));
                 }
             }
-            string texto = "Hola,hay,sfdas,sadf,asd,gfasda";
+            foreach(Producto p in productos_leidos)
+            {
+                Console.WriteLine("{0}{1}{2}",p.codigo,p.descripcion,p.precio);
+            }
+            /*string texto = "Hola,hay,sfdas,sadf,asd,gfasda";
             string [] cadenas = texto.Split(",");
-            Console.WriteLine(cadenas[1]);
+            Console.WriteLine(cadenas[1]);*/
 
         }
     }
