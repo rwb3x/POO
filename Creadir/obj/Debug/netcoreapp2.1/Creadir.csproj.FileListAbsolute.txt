@@ -9,3 +9,13 @@ E:\ISC-ITT\Programacion\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.AssemblyInfo
 E:\ISC-ITT\Programacion\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.AssemblyInfo.cs
 E:\ISC-ITT\Programacion\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.dll
 E:\ISC-ITT\Programacion\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.pdb
+C:\Users\GAMER\Documents\GitHub\POO\creadir\bin\Debug\netcoreapp2.1\Creadir.deps.json
+C:\Users\GAMER\Documents\GitHub\POO\creadir\bin\Debug\netcoreapp2.1\Creadir.runtimeconfig.json
+C:\Users\GAMER\Documents\GitHub\POO\creadir\bin\Debug\netcoreapp2.1\Creadir.runtimeconfig.dev.json
+C:\Users\GAMER\Documents\GitHub\POO\creadir\bin\Debug\netcoreapp2.1\Creadir.dll
+C:\Users\GAMER\Documents\GitHub\POO\creadir\bin\Debug\netcoreapp2.1\Creadir.pdb
+C:\Users\GAMER\Documents\GitHub\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.csprojAssemblyReference.cache
+C:\Users\GAMER\Documents\GitHub\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.AssemblyInfoInputs.cache
+C:\Users\GAMER\Documents\GitHub\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.AssemblyInfo.cs
+C:\Users\GAMER\Documents\GitHub\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.dll
+C:\Users\GAMER\Documents\GitHub\POO\creadir\obj\Debug\netcoreapp2.1\Creadir.pdb
