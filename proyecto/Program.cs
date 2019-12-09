@@ -18,10 +18,10 @@ namespace proyecto
             Likes = l;
         }
     }
-
-    class Program
+    
+    class ProductoDb
     {
-        static void Main(string[] args)
+        public static void Lectura_archivo(string archivo)
         {
             List<Producto> productos = new List<Producto>();
             productos.Add(new Producto("AQW","Lapiz Azul #2",3,1,4));
@@ -40,9 +40,18 @@ namespace proyecto
 
             }
             txtOut.Close();
-            Console.WriteLine("Archivo Grabado\n"+"Revise su archivo de Texto.\nPulse cualquier tecla...");
-            Console.ReadKey();
-        
+        }
+
+        public static void GetDepartament(int Depto)
+        {
+            
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
             List<Producto> productos_leidos = new List<Producto>();
 
             using( StreamReader sr = new StreamReader("productos.txt"))
@@ -55,13 +64,12 @@ namespace proyecto
                     productos_leidos.Add(new Producto(columnas[0],columnas[1], Decimal.Parse(columnas[2]), int.Parse(columnas[3]), int.Parse(columnas[4])));
                 }
             }
+            Console.WriteLine("Archivo Grabado\n"+"Revise su archivo de Texto.\nPulse cualquier tecla...\n");
+            Console.ReadKey();
             foreach(Producto p in productos_leidos)
             {
                 Console.WriteLine("{0} {1} {2} {3} {4}",p.codigo,p.descripcion,p.precio,p.Departamento,p.Likes);
             }
-            /*string texto = "Hola,hay,sfdas,sadf,asd,gfasda";
-            string [] cadenas = texto.Split(",");
-            Console.WriteLine(cadenas[1]);*/
 
         }
     }
