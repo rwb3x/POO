@@ -3,20 +3,18 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Creadir
+namespace ProyectoF
 {
-    class Producto
+    class Producto 
     {
         public string codigo,descripcion;
         public double precio;
         public int Departamento,Likes;
-        public Producto(string c, string d, double p, int D, int L)
+        public Producto(string c, string d, double p)
         {
             codigo = c;
             descripcion = d; 
             precio = p;
-            Departamento = D;
-            Likes = L;
         }
     }
     class Program
@@ -34,7 +32,7 @@ namespace Creadir
 
             foreach(Producto p in productos)
             {
-                txtOut.WriteLine("{0}|{1}|{2}|{3}|{4}",p.codigo,p.descripcion,p.precio,p.Departamento,p.Likes);
+                txtOut.WriteLine("{0}|{1}|{2}",p.codigo,p.descripcion,p.precio);
                 /*txtOut.Write(p.descripcion + " ");
                 txtOut.WriteLine(p.precio);*/
 
@@ -52,7 +50,7 @@ namespace Creadir
                 {
                     string[] columnas = line.Split("|");
                     //Console.WriteLine(columnas[0]);
-                    productos_leidos.Add(new Producto(columnas[0],columnas[1],Double.Parse(columnas[2]),int.Parse(columnas[3]),int.Parse(columnas[4])));
+                    productos_leidos.Add(new Producto(columnas[0],columnas[1],Double.Parse(columnas[2])));
                 }
             }
             foreach(Producto p in productos_leidos)
