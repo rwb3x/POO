@@ -1,0 +1,4 @@
+AQW|Lapiz Azul #2|3|1|4
+AQW|Lapiz  Verde #2|3|1|6
+AQW|Pluma Azul #2|7|2|1
+AQW|Borrador Azul #2|9|3|3

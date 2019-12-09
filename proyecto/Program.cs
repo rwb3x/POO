@@ -50,14 +50,14 @@ namespace proyecto
                 string line = "";
                 while( (line = sr.ReadLine()) != null)//No llegaremos al final del archivo
                 {
-                    string[] columnas = line.Split(" | ");
+                    string[] columnas = line.Split("|");
                     //Console.WriteLine(columnas[0]);
                     productos_leidos.Add(new Producto(columnas[0],columnas[1], Decimal.Parse(columnas[2]), int.Parse(columnas[3]), int.Parse(columnas[4])));
                 }
             }
             foreach(Producto p in productos_leidos)
             {
-                Console.WriteLine("{0}{1}{2}{3}{4}",p.codigo,p.descripcion,p.precio,p.Departamento,p.Likes);
+                Console.WriteLine("{0} {1} {2} {3} {4}",p.codigo,p.descripcion,p.precio,p.Departamento,p.Likes);
             }
             /*string texto = "Hola,hay,sfdas,sadf,asd,gfasda";
             string [] cadenas = texto.Split(",");
