@@ -1,0 +1,11 @@
+C:\Users\GAMER\Documents\GitHub\POO\proyecto\bin\Debug\netcoreapp3.0\proyecto.exe
+C:\Users\GAMER\Documents\GitHub\POO\proyecto\bin\Debug\netcoreapp3.0\proyecto.deps.json
+C:\Users\GAMER\Documents\GitHub\POO\proyecto\bin\Debug\netcoreapp3.0\proyecto.runtimeconfig.json
+C:\Users\GAMER\Documents\GitHub\POO\proyecto\bin\Debug\netcoreapp3.0\proyecto.runtimeconfig.dev.json
+C:\Users\GAMER\Documents\GitHub\POO\proyecto\bin\Debug\netcoreapp3.0\proyecto.dll
+C:\Users\GAMER\Documents\GitHub\POO\proyecto\bin\Debug\netcoreapp3.0\proyecto.pdb
+C:\Users\GAMER\Documents\GitHub\POO\proyecto\obj\Debug\netcoreapp3.0\proyecto.csprojAssemblyReference.cache
+C:\Users\GAMER\Documents\GitHub\POO\proyecto\obj\Debug\netcoreapp3.0\proyecto.AssemblyInfoInputs.cache
+C:\Users\GAMER\Documents\GitHub\POO\proyecto\obj\Debug\netcoreapp3.0\proyecto.AssemblyInfo.cs
+C:\Users\GAMER\Documents\GitHub\POO\proyecto\obj\Debug\netcoreapp3.0\proyecto.dll
+C:\Users\GAMER\Documents\GitHub\POO\proyecto\obj\Debug\netcoreapp3.0\proyecto.pdb

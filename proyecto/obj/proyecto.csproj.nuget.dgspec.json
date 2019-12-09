@@ -1,29 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GAMER\\Documents\\GitHub\\POO\\Creadir\\Creadir.csproj": {}
+    "C:\\Users\\GAMER\\Documents\\GitHub\\POO\\proyecto\\proyecto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GAMER\\Documents\\GitHub\\POO\\Creadir\\Creadir.csproj": {
+    "C:\\Users\\GAMER\\Documents\\GitHub\\POO\\proyecto\\proyecto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GAMER\\Documents\\GitHub\\POO\\Creadir\\Creadir.csproj",
-        "projectName": "Creadir",
-        "projectPath": "C:\\Users\\GAMER\\Documents\\GitHub\\POO\\Creadir\\Creadir.csproj",
+        "projectUniqueName": "C:\\Users\\GAMER\\Documents\\GitHub\\POO\\proyecto\\proyecto.csproj",
+        "projectName": "proyecto",
+        "projectPath": "C:\\Users\\GAMER\\Documents\\GitHub\\POO\\proyecto\\proyecto.csproj",
         "packagesPath": "C:\\Users\\GAMER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GAMER\\Documents\\GitHub\\POO\\Creadir\\obj\\",
+        "outputPath": "C:\\Users\\GAMER\\Documents\\GitHub\\POO\\proyecto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\GAMER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "netcoreapp3.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "netcoreapp3.0": {
             "projectReferences": {}
           }
         },
@@ -34,15 +34,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            }
-          },
+        "netcoreapp3.0": {
           "imports": [
             "net461",
             "net462",
@@ -53,6 +45,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
