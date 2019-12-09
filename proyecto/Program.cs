@@ -64,12 +64,12 @@ namespace proyecto
                     productos_leidos.Add(new Producto(columnas[0],columnas[1], Decimal.Parse(columnas[2]), int.Parse(columnas[3]), int.Parse(columnas[4])));
                 }
             }
-            Console.WriteLine("Archivo Grabado\n"+"Revise su archivo de Texto.\nPulse cualquier tecla...\n");
-            Console.ReadKey();
             foreach(Producto p in productos_leidos)
             {
                 Console.WriteLine("{0} {1} {2} {3} {4}",p.codigo,p.descripcion,p.precio,p.Departamento,p.Likes);
             }
+            Console.WriteLine("Archivo Grabado\n"+"Revise su archivo de Texto.\nPulse cualquier tecla...\n");
+            Console.ReadKey();
 
         }
     }
