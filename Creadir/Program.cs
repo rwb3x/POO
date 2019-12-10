@@ -1,68 +1,169 @@
 ﻿using System;
-using System.IO;
 using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 
-namespace Creadir
+namespace Proyecto
 {
-    class Producto 
+    class Producto
     {
-        public string codigo,descripcion;
-        public double precio;
-        public int Departamento,Likes;
-        public Producto(string c, string d, double p, int dd, int l)
+        public string codigo;
+        public string descripcion;
+        public decimal precio;
+        public int departamento;
+        public int likes;
+
+        public Producto(string c, string d, decimal p, int dp, int l)
         {
             codigo = c;
-            descripcion = d; 
+            descripcion = d;
             precio = p;
-            Departamento = dd;
-            Likes = l;
+            departamento = dp;
+            likes = l;
+        }
+        public Producto()
+        {
+
         }
     }
+    class ProductoDB
+    {
+        public static void EscribeProductosBIN(string archivo, List<Producto> productos)
+        {
+            FileStream fs = new FileStream(archivo, FileMode.OpenOrCreate, FileAccess.Write);
+            BinaryWriter binOut = new BinaryWriter(fs);
 
+            foreach (Producto p in productos)
+            {
+                binOut.Write(p.codigo);
+                binOut.Write(p.descripcion);
+                binOut.Write(p.precio);
+                binOut.Write(p.descripcion);
+                binOut.Write(p.likes);
+            }
+            binOut.Close();
+        }
+
+        public static void EscribeProductosTXT(string archivo, List<Producto> productos)
+        {
+            FileStream fs = new FileStream(archivo, FileMode.OpenOrCreate, FileAccess.Write);
+            StreamWriter txtOut = new StreamWriter(fs);
+
+            foreach (Producto p in productos)
+            {
+                txtOut.WriteLine("{0}|{1}|{2}|{3}|{4}", p.codigo, p.descripcion, p.precio, p.departamento, p.likes);
+            }
+            txtOut.Close();
+        }
+
+        public static List<Producto> LeeProductosBIN(string archivo)
+        {
+            List<Producto> productos = new List<Producto>();
+
+            FileStream bs = new FileStream(archivo, FileMode.Open, FileAccess.Read);
+
+            using (BinaryReader binIn = new BinaryReader(bs))
+            {
+                while (binIn.PeekChar() != -1)
+                {
+                    Producto producto = new Producto();
+                    producto.codigo = binIn.ReadString();
+                    producto.descripcion = binIn.ReadString();
+                    producto.precio = binIn.ReadInt16();
+                    producto.departamento = binIn.ReadInt16();
+                    producto.likes = binIn.ReadInt16();
+
+                    productos.Add(producto);
+                }
+            }
+            return productos;
+        }
+
+        public static List<Producto> LeeProductosTXT(string archivo)
+        {
+            List<Producto> productos = new List<Producto>();
+
+            using (StreamReader sr = new StreamReader(archivo))
+            {
+                string line = "";
+                while ((line = sr.ReadLine()) != null)
+                {
+                    string[] columnas = line.Split('|');
+                    productos.Add(new Producto(columnas[0], columnas[1], Decimal.Parse(columnas[2]), int.Parse(columnas[3]), int.Parse(columnas[4])));
+                }
+            }
+            return productos;
+        }
+    }
     class Program
     {
         static void Main(string[] args)
         {
-            List<Producto> productos = new List<Producto>();
-            productos.Add(new Producto("AQW ","Lapiz Azul #2",12.23d,1,0));
-            productos.Add(new Producto("AQW ","Lapiz  Verde #2",12.23d,1,0));
-            productos.Add(new Producto("AQW ","Pluma Azul #2",22.23d,2,0));
-            productos.Add(new Producto("AQW ","Borrador Azul #2",22.23d,3,0));
+            int e = 1;
+            Console.WriteLine("¿Que tipo de guardado desea?");
+            Console.WriteLine("1.-Texto \n2.-Binario");
+            e = int.Parse(Console.ReadLine());
 
-            FileStream fs = new FileStream(@"productos.txt",FileMode.OpenOrCreate, FileAccess.Write);
-            StreamWriter txtOut = new StreamWriter(fs);
-
-            foreach(Producto p in productos)
+            switch (e)
             {
-                txtOut.WriteLine("{0}|{1}|{2}",p.codigo,p.descripcion,p.precio);
-                /*txtOut.Write(p.descripcion + " ");
-                txtOut.WriteLine(p.precio);*/
+                case 1:
+                    Console.Clear();
+                    Console.WriteLine("Productos Actuales");
+                    List<Producto> productost = new List<Producto>();
+
+                    productost.Add(new Producto("aqw", "Cuaderno", 12, 1, 15));
+                    productost.Add(new Producto("zwg", "Pegamento", 34, 3, 8));
+                    productost.Add(new Producto("mnf", "Sacapuntas", 4, 2, 9));
+                    productost.Add(new Producto("gnr", "Libro de Matematicas", 55, 1, 167));
+                    productost.Add(new Producto("gnr", "Calculadora", 99, 3, 150));
+                    productost.Add(new Producto("gnr", "Pluma", 12, 2, 205));
+
+                    ProductoDB.EscribeProductosTXT(@"productost.txt", productost);
+
+                    List<Producto> productost_guardados = ProductoDB.LeeProductosTXT("productost.txt");
+                    foreach (Producto p in productost_guardados)
+                    {
+                        Console.WriteLine("{0} {1} {2} {3} {4}", p.codigo, p.descripcion, p.precio, p.departamento, p.likes);
+                    }
+
+                    break;
+
+                case 2:
+                    Console.Clear();
+                    Console.WriteLine("Productos Actuales");
+                    List<Producto> productosb = new List<Producto>();
+
+                    productosb.Add(new Producto("aqw", "Cuaderno", 12, 1, 15));
+                    productosb.Add(new Producto("zwg", "Pegamento", 34, 3, 8));
+                    productosb.Add(new Producto("mnf", "Sacapuntas", 4, 2, 9));
+                    productosb.Add(new Producto("gnr", "Libro de Matematicas", 55, 1, 167));
+                    productosb.Add(new Producto("gnr", "Calculadora", 99, 3, 150));
+                    productosb.Add(new Producto("gnr", "Pluma", 12, 2, 205));
+
+                    ProductoDB.EscribeProductosBIN(@"productosb.bin", productosb);
+
+                    List<Producto> productosb_guardados = ProductoDB.LeeProductosBIN("productosb.bin");
+                    foreach (Producto p in productosb_guardados)
+                    {
+                        Console.WriteLine("{0} {1} {2} {3} {4}", p.codigo, p.descripcion, p.precio, p.departamento, p.likes);
+                    }
+
+                    break;
 
             }
-            txtOut.Close();
-            Console.WriteLine("Archivo Grabado\n"+"Revise su archivo de Texto.\nPulse cualquier tecla...");
+
+
+
+
+
+
+
+
+
+
+
             Console.ReadKey();
-        
-            List<Producto> productos_leidos = new List<Producto>();
 
-            using( StreamReader sr = new StreamReader("productos.txt"))
-            {
-                string line = "";
-                while( (line = sr.ReadLine()) != null)//No llegaremos al final del archivo
-                {
-                    string[] columnas = line.Split("|");
-                    //Console.WriteLine(columnas[0]);
-                    productos_leidos.Add(new Producto(columnas[0],columnas[1],Double.Parse(columnas[2]), int.Parse(columnas[3]), int.Parse(columnas[4])));
-                }
-            }
-            foreach(Producto p in productos_leidos)
-            {
-                Console.WriteLine("{0}|{1}|{2}",p.codigo,p.descripcion,p.precio);
-            }
-            /*string texto = "Hola,hay,sfdas,sadf,asd,gfasda";
-            string [] cadenas = texto.Split(",");
-            Console.WriteLine(cadenas[1]);*/
+
 
         }
     }
