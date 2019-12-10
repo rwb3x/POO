@@ -1,14 +1,17 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace proyecto
 {
     class Producto 
     {
-        public string codigo,descripcion;
-        public decimal precio;
-        public int Departamento,Likes;
+        public string codigo{ get; set; }
+        public string descripcion { get; set; }
+        public decimal precio{ get; set; }
+        public int Departamento{ get; set; }
+        public int Likes{ get; set; }
         public Producto(string c, string d, decimal p, int dd, int l)
         {
             codigo = c;
@@ -104,7 +107,7 @@ namespace proyecto
                     {
                         Console.WriteLine("{0} {1} {2} {3} {4}", p.codigo, p.descripcion, p.precio, p.Departamento, p.Likes);
                     }
-
+            
            /* List<Producto> productos_leidos = new List<Producto>();
             using( StreamReader sr = new StreamReader("productos.txt"))
             {
